@@ -1,34 +1,77 @@
-body {
-  font-family: system-ui, sans-serif;
+/* === Reset básico === */
+* {
   margin: 0;
-  background-color: #f9f9f9;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* === Estilo general === */
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background-color: #f4f6f8;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* === Contenedor principal === */
 main {
-  max-width: 880px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+  max-width: 960px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
 }
 
+/* === Títulos === */
 h1 {
-  margin-bottom: .25rem;
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #0066cc;
+  padding-bottom: 0.5rem;
 }
 
 h2 {
+  font-size: 1.5rem;
+  color: #34495e;
   margin-top: 2rem;
-  color: #333;
+  margin-bottom: 1rem;
 }
 
+/* === Párrafos === */
+p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+/* === Lista de proyectos === */
 ul {
-  list-style-type: square;
-  padding-left: 1.5rem;
+  list-style-type: none;
+  padding-left: 0;
 }
 
+li {
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  background-color: #eef2f7;
+  border-left: 4px solid #0066cc;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #dce6f1;
+}
+
+/* === Enlaces === */
 a {
   color: #0066cc;
   text-decoration: none;
+  font-weight: 500;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #004080;
 }
+
