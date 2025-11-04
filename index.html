@@ -1,22 +1,102 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="es">
   <head>
     <meta charset="utf-8" />
     <title>Portafolio - Sebastián Muñoz</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
   </head>
-  <body>
-    <main>
-      <h1>Hola, soy Sebastián Muñoz</h1>
-      <p>Desarrollador - Portafolio 2025</p>
-      <section>
-        <h2>Proyectos</h2>
-        <ul>
-          <li><a href="#">Proyecto A</a></li>
-          <li><a href="#">Proyecto B</a></li>
-        </ul>
+  <body class="is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header -->
+      <header id="header" class="alt">
+        <h1><a href="index.html">Sebastián Muñoz</a></h1>
+        <nav>
+          <a href="#menu">Menú</a>
+        </nav>
+      </header>
+
+      <!-- Menú -->
+      <nav id="menu">
+        <div class="inner">
+          <h2>Menú</h2>
+          <ul class="links">
+            <li><a href="#banner">Inicio</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+          <a href="#" class="close">Cerrar</a>
+        </div>
+      </nav>
+
+      <!-- Banner -->
+      <section id="banner">
+        <div class="inner">
+          <div class="logo"><span class="icon fa-code"></span></div>
+          <h2>Hola, soy Sebastián Muñoz</h2>
+          <p>Desarrollador - Portafolio 2025</p>
+        </div>
       </section>
-    </main>
+
+      <!-- Proyectos -->
+      <section id="proyectos" class="wrapper spotlight style1">
+        <div class="inner">
+          <h2 class="major">Proyectos</h2>
+          <p>Aquí encontrarás algunos de los proyectos que he desarrollado. Próximamente agregaré enlaces y descripciones detalladas.</p>
+          <ul class="actions">
+            <li><a href="#" class="button">Proyecto A</a></li>
+            <li><a href="#" class="button">Proyecto B</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto" class="wrapper style2">
+        <div class="inner">
+          <h2 class="major">Contacto</h2>
+          <p>Si deseas comunicarte conmigo para colaboraciones, consultas o presentaciones académicas, puedes usar el formulario a continuación.</p>
+          <form method="post" action="#">
+            <div class="fields">
+              <div class="field">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="field">
+                <label for="email">Correo electrónico</label>
+                <input type="email" name="email" id="email" />
+              </div>
+              <div class="field">
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" rows="4"></textarea>
+              </div>
+            </div>
+            <ul class="actions">
+              <li><input type="submit" value="Enviar mensaje" /></li>
+            </ul>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <section id="footer">
+        <div class="inner">
+          <ul class="copyright">
+            <li>&copy; Sebastián Muñoz. Todos los derechos reservados.</li>
+            <li>Diseño adaptado desde <a href="https://html5up.net">HTML5 UP</a></li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
